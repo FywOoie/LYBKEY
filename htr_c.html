@@ -54,6 +54,8 @@
                 margin-bottom: 15px;
                 background: white;
                 padding: 10px;
+                padding-top: 13px;
+                padding-bottom: 13px;
                 font-size: 12px;
                 font-family: PingFang SC;
                 font-weight: bold;
@@ -69,11 +71,11 @@
             }
     
             .title {
-                background-color: rgb(245, 245, 245);
+                background-color: rgb(245, 245, 249);
                 color: rgb(135, 135, 135);
                 font-size: 14px;
                 font-family: 微软雅黑;
-                padding: 8px;
+                padding: 12px;
                 padding-left: 16px;
             }
     
@@ -123,7 +125,7 @@
                 background: unset;
                 border-radius: 20px;
                 font-size: 18px;
-                padding: 5px 20px;
+                padding: 5px 18px;
                 display: inline-block;
                 margin: 10px;
                 color: #4285f4;
@@ -235,11 +237,11 @@
         <div id="main">
             
             <div id="button"><img
-                src="当前部门.png">当前部门：国际学院
+                src="当前部门.png " style="height: 16px; width: 16.5px;">当前部门：国际学院
                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAYCAYAAACMcW/9AAAB4ElEQVRYR83VO0sDQRAA4Nm9LfMbBBEsBC1EEFGUJblcOEihP8Je8YnYiPhErf0Rlja729j4C6wUE1+o+AAtlMiaHTmJcsYkbi6R3FVX7Mx+Nzs7RwAAhBCCEOIG73F8KKU+UUqNI+JuHIEh03UAPUDE4ZhD34mUcg8AxmIPVUoNIOJhzKH7JABKKScAYDuOWES8SiQSnZ/QEnYaADZihj1mjI1wzm+/oaUxtUQIWYwJNo+IQ+l0+jrw/ICWKrsAAMstxt5prdt833/7cvyCthpLCDlzHGcgOO5wsSpCW4g9oZS6yWTyvPxEq0JbgL0wxnR5nvdSqe1qQoMApdQMIq7/c8/eaK3bwz1ZV0W/Fiul5hFx5Z+wuWKxOJTJZG5q5f+zoqE5OwcAq03G5hhjg+UXJ9LRh4Oa3Aa3hUKhI5vNvtp8vHVFm9wGl4yxXs75gw2y4sC3CWywsnmtdb/v+/c2e9Uc+DYJlFKTiLhlsza05hIAul3Xfa4z7vcvtJ4EQohZQsiaTUzwxwGAvlQq9WizPtJ4qpXYEpsv9eRTFGTkHi3fTEo5BQCbVRAXANAT5bjD+eq+9dUqUgV7ZIxJep53F7WSDV+mShsLIUYppSPGmASl9NRxnB3OeaFRZBD/ATVSvUcGtzefAAAAAElFTkSuQmCC" alt="" style="float: right;width: 9px;height: 5px;margin-top: 10px;"></div>
     
             <div id="button" style = "margin-top:-3px;"><img
-                    src="本子.png">请假外出、返校权限查询
+                    src="本子.png" style="height: 14px;width: 14px;">请假外出、返校权限查询
             </div>
             <div id="title-name" class="title">姓名</div>
             <div id="name"  class="value">
@@ -252,7 +254,7 @@
                 <option>lwr</option>
                 <option>xyy</option>
             </select> -->
-            <img id = "picurl" src="htr.jpg" style="width:95px;height:115px;" />
+            <img id = "picurl" src="htr.jpg" style="width:120px;height:150px;" />
             </div>
         <script>
             function change(){
@@ -267,7 +269,7 @@
         </div>
         <div class="title">状态码</div>    
             <div id="code" class="value"><img
-                    src="绿码.jpg" style="width:166.5px;height:166.5px;" />
+                    src="绿码.jpg" style="width:145px;height:145px;" />
             </div>
             <div id="status" class="value" style="margin-top:10px;">允许出校</div>
             <div id="title-id" class="title">学工号</div>
@@ -280,8 +282,8 @@
         <div style="height:100px"></div>
         </div>
     
-        <div id="more">
-            <button onclick="javascript:clickMore()">更多</button>
+        <div id="more" style="padding: 1px; height: 70px;">
+            <button onclick="javascript:clickMore()" style="margin-top: 10px ;height: 45px; width: 95px; border-radius: 50px;">更多</button>
         </div>
     
         <div id="footer" style="display:none">
