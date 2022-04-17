@@ -50,9 +50,12 @@
             }
     
             #button {
-                margin: 10px;
+                margin-top: 10px;
+                margin-bottom: 15px;
                 background: white;
-                padding: 16px;
+                padding: 10px;
+                padding-top: 13px;
+                padding-bottom: 13px;
                 font-size: 12px;
                 font-family: PingFang SC;
                 font-weight: bold;
@@ -68,10 +71,11 @@
             }
     
             .title {
+                background-color: rgb(245, 245, 249);
                 color: rgb(135, 135, 135);
                 font-size: 14px;
                 font-family: 微软雅黑;
-                padding: 8px;
+                padding: 12px;
                 padding-left: 16px;
             }
     
@@ -121,7 +125,7 @@
                 background: unset;
                 border-radius: 20px;
                 font-size: 18px;
-                padding: 5px 20px;
+                padding: 5px 18px;
                 display: inline-block;
                 margin: 10px;
                 color: #4285f4;
@@ -186,6 +190,8 @@
             margin-top: 7px;
             width: 100%;
             background-color: #fff;
+            padding-top: 10px;
+            padding-bottom: 10px;
         }
         
         .colorful .color {
@@ -193,7 +199,7 @@
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%);
-            height: 25px;
+            height: 37px;
             width: 93%;
             background-color: #19A33D;
             animation: color 3s steps(1) 2s infinite normal;
@@ -231,11 +237,11 @@
         <div id="main">
             
             <div id="button"><img
-                src="first.png">当前部门：国际学院
+                src="当前部门.png " style="height: 16px; width: 16.5px;">当前部门：国际学院
                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAYCAYAAACMcW/9AAAB4ElEQVRYR83VO0sDQRAA4Nm9LfMbBBEsBC1EEFGUJblcOEihP8Je8YnYiPhErf0Rlja729j4C6wUE1+o+AAtlMiaHTmJcsYkbi6R3FVX7Mx+Nzs7RwAAhBCCEOIG73F8KKU+UUqNI+JuHIEh03UAPUDE4ZhD34mUcg8AxmIPVUoNIOJhzKH7JABKKScAYDuOWES8SiQSnZ/QEnYaADZihj1mjI1wzm+/oaUxtUQIWYwJNo+IQ+l0+jrw/ICWKrsAAMstxt5prdt833/7cvyCthpLCDlzHGcgOO5wsSpCW4g9oZS6yWTyvPxEq0JbgL0wxnR5nvdSqe1qQoMApdQMIq7/c8/eaK3bwz1ZV0W/Fiul5hFx5Z+wuWKxOJTJZG5q5f+zoqE5OwcAq03G5hhjg+UXJ9LRh4Oa3Aa3hUKhI5vNvtp8vHVFm9wGl4yxXs75gw2y4sC3CWywsnmtdb/v+/c2e9Uc+DYJlFKTiLhlsza05hIAul3Xfa4z7vcvtJ4EQohZQsiaTUzwxwGAvlQq9WizPtJ4qpXYEpsv9eRTFGTkHi3fTEo5BQCbVRAXANAT5bjD+eq+9dUqUgV7ZIxJep53F7WSDV+mShsLIUYppSPGmASl9NRxnB3OeaFRZBD/ATVSvUcGtzefAAAAAElFTkSuQmCC" alt="" style="float: right;width: 9px;height: 5px;margin-top: 10px;"></div>
     
             <div id="button" style = "margin-top:-3px;"><img
-                    src="data:image/png;base64,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">请假外出、返校权限查询
+                    src="本子.png" style="height: 14px;width: 14px;">请假外出、返校权限查询
             </div>
             <div id="title-name" class="title">姓名</div>
             <div id="name"  class="value">
@@ -243,12 +249,12 @@
         </div>
          <div id="title-college" class="title">照片</div>
              
-            <div id="code" class="value">
+            <div id="code" class="value" style="padding-bottom: 30px;">
     <!--		<select id = "picId" onclick = "change()">
                 <option>lwr</option>
                 <option>xyy</option>
             </select> -->
-            <img id = "picurl" src="htr.jpg" style="width:95px;height:115px;border-radius:5px;" />
+            <img id = "picurl" src="htr.jpg" style="width:120px;height:150px;" />
             </div>
         <script>
             function change(){
@@ -261,9 +267,9 @@
         <div class="colorful">
         <div class="color"></div>
         </div>
-        <div class="zhuangtaima">状态码</div>    
+        <div class="title">状态码</div>    
             <div id="code" class="value"><img
-                    src="绿码.jpg" style="width:166.5px;height:166.5px;" />
+                    src="绿码.jpg" style="width:145px;height:145px;" />
             </div>
             <div id="status" class="value" style="margin-top:10px;">允许入校</div>
             <div id="title-id" class="title">学工号</div>
@@ -276,8 +282,8 @@
         <div style="height:100px"></div>
         </div>
     
-        <div id="more">
-            <button onclick="javascript:clickMore()">更多</button>
+        <div id="more" style="padding: 1px; height: 70px;">
+            <button onclick="javascript:clickMore()" style="margin-top: 10px ;height: 45px; width: 95px; border-radius: 50px;">更多</button>
         </div>
     
         <div id="footer" style="display:none">
